@@ -1,0 +1,25 @@
+name: Submit a skill
+description: No git? Paste your skill here and a maintainer opens the pull request for you.
+title: "Skill: "
+labels: [submission]
+body:
+  - type: input
+    id: author
+    attributes:
+      label: Your name and a link to your own profile
+    validations:
+      required: true
+  - type: textarea
+    id: skill
+    attributes:
+      label: SKILL.md
+      description: Paste the full file, frontmatter included.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: extras
+    attributes:
+      label: Reference pages and optional layer files
+      description: Paste each file under a heading with its path.
+      render: markdown
