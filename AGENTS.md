@@ -9,6 +9,7 @@ This is the Automation Skills library: open, vendor-neutral skills for agents th
 - "Install / use / get skill X": go to [Installing](#installing).
 - "Submit / contribute / publish my playbook": go to [Submitting a skill](#submitting-a-skill).
 - "Update my skill": same as submitting. Edit only the skill folders the user authored.
+- "Update my profile / photo / title": edit only `profiles/<their-slug>.json` and add `profiles/<their-slug>.jpg`, following [profiles/README.md](profiles/README.md). Then open a pull request.
 
 ## Installing
 

@@ -44,6 +44,7 @@ skills/
     SKILL.md        the skill: portable and tool-agnostic
     references/     optional: deeper material the skill points to
     <platform>.md   optional layer: how to run it on one platform
+profiles/           contributor profiles: <slug>.json and <slug>.jpg (see profiles/README.md)
 templates/          starting points
 tools/validate.mjs  the checks CI runs
 ```
